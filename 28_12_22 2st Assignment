@@ -1,5 +1,7 @@
-n=int(input())
-res=n-1
-s=str(res)
-s = ''.join(s)
-print(s)
+n=int(input())#84
+res=n+1#85
+l=[]
+s=str(res)#converts integer value to string value
+for i in s:
+    l.append(int(i))
+print(l)
